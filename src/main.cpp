@@ -1,8 +1,12 @@
 #include <iostream>
 
 int main()
-{
-    std::cout << "Final Requirement Template" << std::endl;
+{   std::string name;
+
+    std::cout << " Please enter your name "<< std::endl;
+    std::cin >> name;
+
+    
 
     return 0;
 }
